@@ -1,0 +1,28 @@
+/* install required fonts */
+@font-face {
+    font-family: 'vazir';
+    src: url('fonts/Vazir-Regular.ttf') format('TrueType');
+}
+@font-face {
+    font-family: 'bnazanin';
+    src: url('fonts/BNAZANIN.TTF') format('TrueType');
+}
+@font-face {
+    font-family: 'iran';
+    src: url('fonts/IranNastaliq.ttf') format('TrueType');
+}
+body {
+    background-color: rgb(133, 243, 148);
+}
+
+header {
+    font-family: 'vazir';
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(245, 15, 15);    
+}
+main {
+    font-family: 'bnazanin';
+    color: blue;
+    text-align: justify;
+}
